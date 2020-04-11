@@ -24,6 +24,44 @@
 
                 </datalist>
             </div>
+
+            <div>
+                Sexo:
+                <input name="Sexo" type="radio" value="Masculino"> Masculino
+                <input name="Sexo" type="radio" value="Femenino"> Femenino
+            </div>
+
+            <div>
+                <table>
+                    <tr>
+                        <th>Padre</th>
+                        <th>Madre</th>
+                        <th>Hijo/a</th>
+                        <th>Fecha/Nac</th>
+                        <th>Lugar/Nac</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input name="Padre" type="text" placeholder="Padre">
+                            <input name="Madre" type="text" placeholder="Madre">
+                            <input name="Hijo/a" type="text" placeholder="Hijo/a">
+                            <input name="Fecha/Nac" type="date" placeholder="Fecha/Nac">
+                            <input name="Lugar/Nac" list="Pais" placeholder="Lugar/Nac">                        
+                            <datalist id="Pais">
+                                <option value="Argentina"></option>
+                                <option value="Brasil"></option>
+                                <option value="Chile"></option>
+                                <option value="Colombia"></option>
+                                <option value="Ecuador"></option>
+                                <option value="Paraguay"></option>
+                                <option value="Uruguay"></option>
+                                <option value="Venezuela"></option>
+                            </datalist> 
+                        </td>                        
+                        
+                    </tr>
+                </table>
+            </div>
             
         
         </form>
